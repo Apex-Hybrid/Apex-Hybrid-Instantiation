@@ -1,3 +1,4 @@
+import org.eclipse.jetty.jndi.local.localContextRoot;
 
 public class Lab {
     /**
@@ -12,12 +13,18 @@ public class Lab {
      * Example:
      *      Type reference = new Type();
      *      return reference;
-     *
+     
      * Note: Null is a special type which represents the absence of an object.
      *
      * @return any object.
      */
+    
+    
+    
+    
+
     public Object instantiateANewObject(){
-        return null;
+        Object human = new Object();
+        return human;
     }
 }
